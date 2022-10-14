@@ -44,8 +44,12 @@ app-page {
   display: block;
 
 }
-
+.menu-button {
+  border: none;
+  background-color: transparent;
+}
 .vertical-text {
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
+  user-select: none;
 }
